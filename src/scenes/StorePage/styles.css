@@ -242,6 +242,7 @@
         /* border-radius: 0.5rem; */
         overflow-y: scroll;
         transition: height 0.5s;
+        z-index: 10;
     }
 
     .items-mini-view {
@@ -331,6 +332,7 @@
 }
 .knowMore-right {
     margin-left: 1rem;
+    width: 60%;
 }
 .knowMore-title {
     font-size: 1.5rem;
@@ -345,4 +347,5 @@
     background-color: #f5f1d0;
     padding: 0.5rem;
     border-radius: 0.4rem;
+    text-align: justify;
 }
