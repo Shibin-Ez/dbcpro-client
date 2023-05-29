@@ -1,0 +1,129 @@
+/* Title Section */
+.home-title-box{
+    width: fit-content;
+    text-align: left;
+    margin: 13rem auto 0;
+}
+.home-h3{
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    padding-left: 0.3rem;
+}
+.home-title{
+    font-family: 'Teko', sans-serif;
+    font-size: 8rem;
+    position: relative;
+    bottom: 2rem;
+    margin: 0;
+}
+.home-p{
+    position: relative;
+    bottom: 4rem;
+    margin: 0;
+    padding-left: 0.3rem;
+    letter-spacing: 0.3rem;
+}
+
+.dbcpro-logo {
+    width: 23rem;
+    height: 14rem;
+    background-image: url("../../../public/dbcpro-logo.png");
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+/* Feature Section */
+.feature{
+    position: absolute;
+    width: fit-content;
+    padding: 1rem;
+    background-color: #000000;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem #000;
+}
+.f1{
+    top: 250px;
+    left: 3%;
+}
+.f2{
+    top: 250px;
+    right: 3%;
+}
+.f3{
+    top: 80px;
+    left: 16%;
+}
+.f4{
+    top: 80px;
+    right: 16%;
+}
+
+/* Button */
+.go-btn {
+    all: unset;
+    width: 10rem;
+    height: 3.5rem;
+    background: linear-gradient(0deg, rgba(236, 119, 3, 1) 0%, rgba(240, 130, 20, 1) 35%, rgba(250, 158, 65, 1) 100%);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    transition: font-size 0.2s ease;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2rem;
+}
+.go-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(236, 178, 3, 1) 0%, rgba(240, 186, 20, 1) 35%, rgba(250, 211, 65, 1) 100%);
+    font-size: 1.4rem;
+    transition: font-size 0.1s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .home-title-box{
+        margin: 5rem auto 0;
+    }
+    .dbcpro-logo {
+        width: 20rem;
+        height: 12rem;
+        background-size: cover;
+        margin-bottom: 3rem;
+    }
+    .features{
+        /* margin-left: 2rem;
+        margin-bottom: 5rem; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature{
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    .f1{
+        top: 0;
+        left: 0;
+    }
+    .f2{
+        top: 0;
+        right: 0;
+    }
+    .f3{
+        top: 0;
+        left: 0;
+    }
+    .f4{
+        top: 0;
+        right: 0;
+    }
+    .go-btn{
+        margin-top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

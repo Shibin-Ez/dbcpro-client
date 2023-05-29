@@ -1,0 +1,200 @@
+/* Sidebar */
+.admin-sidebar {
+    background-color: #1C212D;
+    border-right: 1px solid #e3e6f0;
+    height: 100%;
+    width: 3rem;
+    position: fixed;
+    z-index: 1;
+    overflow-x: scroll;
+    padding-top: 20px;
+    transition: width 100ms ease;
+    top: 0;
+}
+
+.admin-sidebar:hover {
+    width: 13rem;
+    transition: width 300ms ease;
+}
+
+.admin-nav-item {
+    background-color: #1C212D;
+    padding: 0.5rem 0;
+    color: #e3e6f099;
+    transition: color 0.1s;
+    transition: background-color 0.1s;
+}
+
+.admin-nav-item:hover {
+    background-color: #455069;
+    color: #e3e6f0;
+}
+
+.admin-nav-item-active {
+    background-color: #455069;
+    color: #e3e6f0;
+}
+
+.admin-nav-icon {
+    background-size: cover;
+    width: 1.7rem;
+    margin-left: 0.5rem;
+    aspect-ratio: 1/1;
+}
+
+.admin-nav-name {
+    font-size: 1.1rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    position: absolute;
+    margin-left: 3.5rem;
+    margin-top: 0.2rem;
+}
+
+
+/* Main Section */
+.admin-main {
+    margin-left: 3rem;
+}
+
+
+/* Dashboard */
+.dash-header {
+    padding: 1rem 1rem 0.2rem;
+    background-color: #F8F8F9;
+}
+
+.dash-h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.dash-hr {
+    border: 1px solid #E7EAEA;
+    background-color: #E7EAEA;
+}
+
+.dash-btn {
+    background-color: #1C212D;
+    color: #e3e6f0;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-left: auto;
+    cursor: pointer;
+    letter-spacing: 0.06rem;
+}
+
+table {
+    /* font-family: arial, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+}
+
+/* tr:nth-child(even) {
+    background-color: #e9e8e8;
+} */
+
+.dash-time {
+    font-size: 0.8rem;
+    color: #9E9E9E;
+    margin-top: 0.2rem;
+}
+.dash-status{
+    padding: 0.2rem 0.7rem 0.3rem;
+    border-radius: 0.7rem;
+    background-color: #ffdfb6;
+    color: #b86507
+}
+.dash-tr{
+    border-top: 2px solid #E7EAEA;
+    /* background-color: #E7EAEA; */
+    margin: 0;
+    width: 100%;
+    height: unset;
+}
+.dash-tr:hover{
+    background-color: #FFF5E8;
+    /* color: #DE7A05; */
+    cursor: pointer;
+}
+.dash-extend{
+    width: 100%;
+    position: fixed;
+}
+.dash-tr:hover + .dash-extend{
+    background-color: #FFF5E8;
+    cursor: pointer;
+}
+.expand-btn{
+    position: absolute;
+    bottom: 0.2rem;
+}
+.status-change-text{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.status-change-btn{
+    background-color: #ffcc73;
+    color: rgb(34, 4, 134);
+    border: 2px solid rgb(97, 82, 23);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    letter-spacing: 0.06rem;
+    transition: background-color, color 0.1s;
+}
+.status-change-btn:hover{
+    background-color: #ffa201;
+    color: white;
+    transition: background-color, color 0.2s;
+}
+
+
+/* AddItem Section */
+#add-item-page{
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color: #F8F8F9;
+    height: 100vh;
+}
+.admin-add-form{
+    margin: 3rem auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 60%;
+    text-align: left;
+    background-color: #fff;
+}
+
+.margin-b{
+    margin-bottom: 1.5rem;
+}
+.margin-r{
+    margin-right: 1rem;
+    width: 100%;
+}
+
+/* Update Page */
+#modify-product-page{
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color: #F8F8F9;
+    height: 100vh;
+}

@@ -1,0 +1,65 @@
+/* Navbar */
+.navbar{
+    background-color: #24252A;
+    width: 100%;
+    height: 2.5rem;
+    color: #fff;
+}
+.nav-h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.3rem 5rem;
+    font-weight: 700;
+}
+
+.nav-username{
+    width: fit-content;
+    margin: auto 0;
+    margin-left: auto;
+}
+
+.nav-login-btn{
+    color: #fff;
+    background-color: #6a6a6e;
+    font-size: 1rem;
+    border: none;
+    padding: 0.3rem 1rem;
+    margin: 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: 0.1s;
+}
+.nav-login-btn:hover {
+    background-color: #fff;
+    color: #6a6a6e;
+    border: 1px solid #6a6a6e;
+    transition: 0.2s;
+}
+
+.account-icon{
+    margin: 0.1rem 0.5rem;
+    margin-right: 5rem;
+    cursor: pointer;
+    transition: color 0.1s;
+}
+.account-icon:hover{
+    color: rgb(255, 255, 0);
+    transition: color 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-h3{
+        font-size: 1.2rem;
+        padding: 0.3rem 1rem;
+    }
+    .nav-login-btn{
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+        margin: 0.3rem 1rem;
+    }
+    .account-icon{
+        margin-right: 1rem;
+    }
+}

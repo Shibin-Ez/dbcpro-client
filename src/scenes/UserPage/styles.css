@@ -1,0 +1,89 @@
+.user-sidebar{
+    border: 1px solid black;
+    width: 20%;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+}
+.user-main{
+    border: 1px solid black;
+    width: 80%;
+    height: fit-content;
+    margin: 1rem;
+    border-radius: 0.2rem;
+}
+.user-sidebar-item{
+    border-bottom: 1px solid black;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+}
+.user-sidebar-item:hover{
+    background-color: #F08214;
+    color: white;
+    transition: background-color 0.2s;
+}
+.user-sidebar-item-active{
+    background-color: #F08214;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+
+/* OrdersPage */
+#orders-page{
+    padding: 1.5rem;
+}
+.orders-title{
+    font-size: 1.2rem;
+    margin-bottom: 1rem ;
+}
+.order-box{
+    margin-bottom: 1.5rem;
+}
+.ordered-item{
+    border: 1px solid black;
+    height: 7rem;
+    margin-right: 1rem;
+    width: 70%;
+    border-radius: 0.15rem;
+    padding: 0.5rem;
+}
+.ordered-img{
+    height: 100%;
+    width: 6rem;
+    float: left;
+}
+.ordered-details{
+    margin-left: 1rem;
+}
+.ordered-name{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.ordered-status{
+    border: 1px solid black;
+    height: 3rem;
+    margin-right: 1rem;
+    width: 10%;
+    border-radius: 0.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 214, 79);
+}
+.order-cancel-btn{
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 0.2rem;
+    transition: background-color 0.1s;
+    height: 3rem;
+    cursor: pointer;
+}
+.order-cancel-btn:hover{
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s;
+}

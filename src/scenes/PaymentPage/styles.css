@@ -1,0 +1,84 @@
+/* Delivery Address */
+.delivery-address{
+    width: 50%;
+    /* margin: 0 auto; */
+    padding: 1.2rem;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    margin-bottom: 20px;
+}
+.delivery-header{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.margin-b2{
+    margin-bottom: 1.5rem;
+}
+.margin-r2{
+    margin-right: 0;
+}
+
+/* Your-Order Section */
+.your-order{
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-top: 3rem;
+    padding: 1rem 2.5rem;
+    width: 35%;
+}
+.order-total{
+    margin: 2rem 0;
+}
+.order-pay{
+    background-image: url("../../../public/qr-code-shibin.jpg");
+    background-size: cover;
+    width: 10rem;
+    aspect-ratio: 1/1;
+
+}
+.order-vr{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid black;
+}
+.order-pay2{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.order-upi{
+    background-color: black;
+    color: wheat;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.order-finish{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px)  {
+    .delivery-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .delivery-address{
+        width: 95%;
+        padding: 2%;
+    }
+    .delivery-header{
+        margin-left: 1rem;
+    }
+    .your-order{
+        width: 84%;
+        margin: 2%;
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+    .payment-h2{
+        margin-top: 0;
+    }
+}
